@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import ContactList from './ContactList';
+//import ContactList from './ContactList';
 
 class App extends Component {
     render() {
@@ -24,7 +24,7 @@ class App extends Component {
 
                 <div style={container}>
 
-                    <ContactList />
+                    {/*<ContactList />*/}
 
                 </div>
             </div>

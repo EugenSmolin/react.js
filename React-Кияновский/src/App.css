@@ -6,6 +6,20 @@
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
+.App-logo.left {
+  animation: App-logo-spin-left infinite 20s linear;
+  height: 80px;
+  position: relative;
+  left: 55px;
+  transform: rotate(30deg);
+}
+.App-logo.right {
+  animation: App-logo-spin-right infinite 20s linear;
+  height: 80px;
+  position: relative;
+  right: 55px;
+  transform: rotate(30deg);
+}
 
 .App-header {
   background-color: #444;
@@ -25,8 +39,16 @@
 }
 
 @keyframes App-logo-spin {
+  from { transform: rotate(30deg); }
+  to { transform: rotate(390deg); }
+}
+@keyframes App-logo-spin-left {
   from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  to { transform: rotate(-360deg); }
+}
+@keyframes App-logo-spin-right {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(-360deg); }
 }
 
 /*=============*/

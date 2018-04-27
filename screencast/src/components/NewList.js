@@ -18,9 +18,9 @@ const list = [
 	}
 ];
 class NewList extends Component {
-	constructor(props) {
-		super(props);
-	}
+	// constructor(props) {
+	// 	super(props);
+	// }
 	render() {
 		return (
 			<div>
